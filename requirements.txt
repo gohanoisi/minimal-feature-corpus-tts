@@ -7,3 +7,5 @@ scipy
 matplotlib
 jupyter
 pyopenjtalk
+pandas
+seaborn
