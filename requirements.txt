@@ -9,3 +9,10 @@ jupyter
 pyopenjtalk
 pandas
 seaborn
+# StyleTTS2関連
+Cython
+phonemizer
+Unidecode
+inflect
+pypinyin
+# StyleTTS2本体はGitHubからインストール: pip install git+https://github.com/yl4579/StyleTTS2.git
