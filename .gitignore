@@ -32,3 +32,11 @@ models/
 
 .DS_Store
 Thumbs.db
+
+# ESPNet
+espnet/
+espnet_data/
+
+# StyleTTS2 (他のリポジトリから持ってきただけなので除外)
+StyleTTS2/
+
