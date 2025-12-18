@@ -15,4 +15,5 @@ phonemizer
 Unidecode
 inflect
 pypinyin
+tensorboard  # StyleTTS2の学習に必要（学習ログの記録用）
 # StyleTTS2本体はGitHubからインストール: pip install git+https://github.com/yl4579/StyleTTS2.git
