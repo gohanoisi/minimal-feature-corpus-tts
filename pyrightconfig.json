@@ -1,0 +1,30 @@
+{
+  "exclude": [
+    "**/__pycache__",
+    "**/.venv",
+    "**/venv",
+    "**/env",
+    "**/.ipynb_checkpoints",
+    "**/data",
+    "**/datasets",
+    "**/audio",
+    "**/outputs",
+    "**/logs",
+    "**/runs",
+    "**/checkpoints",
+    "**/models",
+    "**/espnet",
+    "**/espnet_data",
+    "**/StyleTTS2",
+    "**/node_modules"
+  ],
+  "include": [
+    "src",
+    "scripts",
+    "notebooks"
+  ],
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.12"
+}
+

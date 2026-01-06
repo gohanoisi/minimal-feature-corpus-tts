@@ -9,6 +9,7 @@ jupyter
 pyopenjtalk
 pandas
 seaborn
+transformers
 # StyleTTS2関連
 Cython
 phonemizer
@@ -16,4 +17,11 @@ Unidecode
 inflect
 pypinyin
 tensorboard  # StyleTTS2の学習に必要（学習ログの記録用）
+accelerate  # StyleTTS2の学習に必要（分散学習用）
+click  # StyleTTS2の学習スクリプトに必要（train_first.py, train_second.pyで使用）
+munch  # StyleTTS2の学習スクリプトに必要（設定ファイルの読み込みで使用）
+PyYAML  # StyleTTS2の設定ファイル読み込みに必要（yamlモジュール）
+einops  # StyleTTS2のdiffusionモジュールで使用（テンソル操作）
+einops-exts  # StyleTTS2のdiffusionモジュールで使用（拡張機能）
+git+https://github.com/resemble-ai/monotonic_align.git  # StyleTTS2のアライメント処理に必要（Cythonモジュール）
 # StyleTTS2本体はGitHubからインストール: pip install git+https://github.com/yl4579/StyleTTS2.git

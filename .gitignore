@@ -33,10 +33,10 @@ models/
 .DS_Store
 Thumbs.db
 
-# ESPNet
-espnet/
-espnet_data/
+# ESPNet (ルートレベルのみ除外、notebooks/espnet/は含める)
+/espnet/
+/espnet_data/
 
-# StyleTTS2 (他のリポジトリから持ってきただけなので除外)
-StyleTTS2/
+# StyleTTS2 (ルートレベルのみ除外、notebooks/styletts2/は含める)
+/StyleTTS2/
 
